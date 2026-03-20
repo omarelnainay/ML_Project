@@ -28,27 +28,14 @@ Each dataset is processed through data exploration, preprocessing, visualization
 
 ### 2. Regression Dataset
 
-* **Name:** Housing Prices Dataset
+* **Name:** Diamond Prices Dataset
 
 * **Source:** Kaggle
 
 * **Description:**
-  This dataset includes various features related to houses, such as area, number of rooms, and location factors. The goal is to predict the price of a house.
+  This dataset includes various features related to diamonds, such as carat, cut, and clarity. The goal is to predict the price of the diamond.
 
 * **Target Variable:** `Price`
-
----
-
-## ⚙️ Project Structure
-
-```
-├── classification_dataset.csv
-├── regression_dataset.csv
-├── classification_model.ipynb
-├── regression_model.ipynb
-├── README.md
-└── report.pdf
-```
 
 ---
 
@@ -56,7 +43,7 @@ Each dataset is processed through data exploration, preprocessing, visualization
 
 ### 1. Data Retrieval
 
-* Datasets were downloaded from Kaggle
+* Datasets were downloaded from Kaggle and Dryad
 * Each dataset was inspected and described
 * Columns and their meanings were analyzed
 
@@ -84,15 +71,13 @@ Each dataset is processed through data exploration, preprocessing, visualization
 ### 4. Data Visualization
 
 * Used:
-
+  
   * Matplotlib
-  * Seaborn
+       
 * Created:
 
   * Histograms
   * Box plots
-  * Correlation heatmaps
-  * Count plots
 
 ---
 
@@ -102,6 +87,7 @@ Each dataset is processed through data exploration, preprocessing, visualization
 
 * Decision Tree Classifier
 * AdaBoost Classifier
+  
 
 #### 📈 Regression Models
 
@@ -136,37 +122,37 @@ Each dataset is processed through data exploration, preprocessing, visualization
 * Pandas
 * NumPy
 * Matplotlib
-* Seaborn
 * Scikit-learn
-* Google Colab
-
 ---
 
 ## 🚀 How to Run the Project
 
-1. Open the notebooks using Google Colab or Jupyter Notebook
-2. Upload the dataset CSV files
-3. Run all cells step-by-step
-4. Review outputs and visualizations
+1. Clone the repository
+2. Run diamond_visualization and titanic_visualization for the plots and insights
+3. Run preprocess_diamond and preprocess_titanic to preprocess the data before fitting into the models
+4. Run each model file and review the output scores
 
 ---
 
 ## 👥 Team Members
 
-* [Member 1 Name]
-* [Member 2 Name]
-* [Member 3 Name]
-* [Member 4 Name]
-* [Member 5 Name]
-* [Member 6 Name]
+* Omar Elnainay
+* Arsany Ehab
+* Mariam Ahmed 
+* Ganna Mohamed
+* Anas Radwan
+* Marwan Amer
 
 ---
 
 ## 📄 Submission Files
 
 * 2 datasets (CSV format)
-* 2 Jupyter notebooks (.ipynb)
-* Final report (.pdf or .docx)
+* 2 preprocessing files (.py)
+* 2 visualization files (.py)
+* 3 classification models (.py)
+* 2 regression models (.py)
+* Final report (.pdf)
 * README.md
 
 ---

@@ -1,4 +1,3 @@
-# ML_Project
 # Machine Learning Final Project (Phase 1)
 
 ## 📌 Project Overview

@@ -14,7 +14,7 @@ num_features = ['Age', 'Fare', 'FamilySize']
 cat_features = ['Sex', 'Embarked', 'Pclass']
 preprocessor = ColumnTransformer([
     ('num', StandardScaler(), num_features),
-    ('cat', OneHotEncoder(drop='first', sparse_output=False), cat_features)  # sparse_output=False for dense output
+    ('cat', OneHotEncoder(drop='first', sparse_output=False), cat_features)  
 ])
 X_processed = preprocessor.fit_transform(X)
 feature_names = (num_features + 

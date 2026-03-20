@@ -28,7 +28,7 @@ Each dataset is processed through data exploration, preprocessing, visualization
 
 ### 2. Regression Dataset
 
-* **Name:** Housing Prices Dataset
+* **Name:** Diamond Prices Dataset
 
 * **Source:** Kaggle
 

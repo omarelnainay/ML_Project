@@ -128,8 +128,9 @@ Each dataset is processed through data exploration, preprocessing, visualization
 ## 🚀 How to Run the Project
 
 1. Clone the repository
-2. Run diamond_visualization and titanic_visualization for plots and insights
-3. Run each file model and reivew the outputs 
+2. Run diamond_visualization and titanic_visualization for the plots and insights
+3. Run preprocess_diamond and preprocess_titanic to preprocess the data before fitting into the models
+4. Run each model file and review the output scores
 
 ---
 

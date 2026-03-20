@@ -147,6 +147,10 @@ Each dataset is processed through data exploration, preprocessing, visualization
 ## 📄 Submission Files
 
 * 2 datasets (CSV format)
+* 2 preprocessing python files
+* 2 visualization python files
+* 3 classification models files
+* 2 regression models files
 * Final report (.pdf or .docx)
 * README.md
 

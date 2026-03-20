@@ -87,7 +87,7 @@ Each dataset is processed through data exploration, preprocessing, visualization
 
 * Decision Tree Classifier
 * AdaBoost Classifier
-* 
+  
 
 #### 📈 Regression Models
 
@@ -147,11 +147,11 @@ Each dataset is processed through data exploration, preprocessing, visualization
 ## 📄 Submission Files
 
 * 2 datasets (CSV format)
-* 2 preprocessing python files
-* 2 visualization python files
-* 3 classification models files
-* 2 regression models files
-* Final report (.pdf or .docx)
+* 2 preprocessing files (.py)
+* 2 visualization files (.py)
+* 3 classification models (.py)
+* 2 regression models (.py)
+* Final report (.pdf)
 * README.md
 
 ---
